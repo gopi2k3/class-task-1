@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+
+
+<script>
+
+class Rectangle{
+	
+
+    constructor(length,width){
+		this.length=length;
+		this.width=width
+		
+	}
+
+area(){
+	
+	let rectangleArea=this.length*this.width
+    document.write(`Area of the Rectangle ${rectangleArea}`)
+		
+	
+}	
+
+perimeter(){
+	
+	
+	let rectanglePerimeter=2*(this.length+this.width)
+		
+    document.write(`Perimeter of the Rectangle  ${rectanglePerimeter}`)
+	
+
+	
+}
+	
+}
+
+
+let ans=new Rectangle(20,10)
+
+ans.area()
+ans.perimeter()
+
+</script>
+</body>
+</html>
